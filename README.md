@@ -65,12 +65,21 @@ montford-design-system/
 ├── tokens/
 │   ├── colors.json           # Brand colours as design tokens
 │   └── design-tokens.css     # CSS custom properties (variables)
-└── assets/
-    └── Montford_Horizontal_Logo.png
+├── assets/
+│   └── Montford_Horizontal_Logo.png
+└── samples/                  # 56 exported Canva designs (with a gallery index)
+    └── README.md             # Visual gallery linking each sample to its live design
 ```
 
 Use `tokens/design-tokens.css` to pull the palette and type into any web
 product, and `tokens/colors.json` as a machine-readable source for build tools.
+
+## Design samples
+
+The [`samples/`](samples/) folder contains exported images of Montford's Canva
+designs — flyers, social posts, ID cards, fee sheets and more — as a real-world
+reference for how the brand is applied. See the
+**[sample gallery](samples/README.md)** for thumbnails linked to each live design.
 
 ---
 
