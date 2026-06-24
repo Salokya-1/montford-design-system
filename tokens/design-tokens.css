@@ -1,0 +1,44 @@
+/* Montford International College — design tokens
+   RTO 46346 | CRICOS 04334A
+   Import or copy these custom properties into any web product. */
+
+:root {
+  /* Brand colours */
+  --mic-deep-navy:   #011F5B; /* primary brand — titles, headings, footer text */
+  --mic-sky-blue:    #63B3F6; /* accent rules, borders, callout bars */
+  --mic-crimson-red: #BA0A23; /* CTA / alerts (use sparingly) */
+  --mic-pale-blue:   #EFF6FE; /* table label / box fills */
+  --mic-border-blue: #C9D6E8; /* table cell borders */
+  --mic-body-ink:    #1A1A2E; /* table body / value text */
+  --mic-body-grey:   #333344; /* callout / box body text */
+  --mic-body-text:   #3D3D3D; /* default body copy */
+  --mic-white:       #FFFFFF; /* text on navy fills */
+
+  /* Typography */
+  --mic-font-body: "Segoe UI", Calibri, sans-serif;
+  --mic-font-size-body: 10pt;
+  --mic-heading-color: var(--mic-deep-navy);
+  --mic-accent-color: var(--mic-sky-blue);
+}
+
+body {
+  font-family: var(--mic-font-body);
+  font-size: var(--mic-font-size-body);
+  color: var(--mic-body-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--mic-heading-color);
+  font-family: var(--mic-font-body);
+}
+
+/* Brand table style: navy text on a pale-blue header — never white-on-navy */
+.mic-table th {
+  background: var(--mic-pale-blue);
+  color: var(--mic-deep-navy);
+  border: 1px solid var(--mic-border-blue);
+}
+.mic-table td {
+  color: var(--mic-body-ink);
+  border: 1px solid var(--mic-border-blue);
+}

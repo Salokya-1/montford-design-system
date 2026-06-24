@@ -1,0 +1,18 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "color": {
+    "deep-navy":   { "value": "#011F5B", "comment": "Primary brand — titles, headings, footer text" },
+    "sky-blue":    { "value": "#63B3F6", "comment": "Accent rules, borders, callout bars" },
+    "crimson-red": { "value": "#BA0A23", "comment": "CTA / alerts (use sparingly)" },
+    "pale-blue":   { "value": "#EFF6FE", "comment": "Table label / box fills" },
+    "border-blue": { "value": "#C9D6E8", "comment": "Table cell borders" },
+    "body-ink":    { "value": "#1A1A2E", "comment": "Table body / value text" },
+    "body-grey":   { "value": "#333344", "comment": "Callout / box body text" },
+    "body-text":   { "value": "#3D3D3D", "comment": "Default body copy" },
+    "white":       { "value": "#FFFFFF", "comment": "Text on navy fills" }
+  },
+  "font": {
+    "family-body": { "value": "Segoe UI, Calibri, sans-serif" },
+    "size-body":   { "value": "10pt" }
+  }
+}
